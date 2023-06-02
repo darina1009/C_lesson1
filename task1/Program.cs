@@ -1,33 +1,3 @@
-﻿
-
-void Task1(){
-    Console.WriteLine("Введите число");
-string input = Console.ReadLine(); //ввод с клавиатуры
-int number = Convert.ToInt32(input); //конвертация строки в число
-int result = number*number;
-Console.WriteLine(result);
-}
-
-void Task2(){
-    Console.WriteLine("Введите число");
-int number1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(number1 * number1);
-}
-
-
-void Task3(){
-    Console.WriteLine("Введите первое число");
-int sq = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе число");
-int num =Convert.ToInt32(Console.ReadLine());
-if (sq == num * num) { 
-    Console.WriteLine("ДА");
-    }
-    else {
-        Console.WriteLine("НЕТ");
-    }
-}
-
 void Task4(){
     
     Console.Write("Введите первое число");
@@ -89,4 +59,4 @@ void Task8(){
    Enumerable.Range(1,num7).Where(x => x%2 == 0).ToList().ForEach(x => Console.WriteLine(x));
 }
 
-Task8();
+Task4();
